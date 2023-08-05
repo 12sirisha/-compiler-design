@@ -1,0 +1,13 @@
+Step1: copy MinGW folder from pendrive and paste it in C: drive.
+Step2: Installing Bison and Flex using use following Link http://gnuwin32.sourceforge.net/packages.html  Choose bison and Flex from package section(setup).
+Step3: download cal.l file from WhatsApp group and keep it in desktop.
+Step4: Go to desktop folder in my computer where you save cal.l file.
+Step5: right-click on mouse and select open in terminal option. 
+Step6: Now type following commands.
+1. set path=C:\Program Files (x86)\GnuWin32\bin
+2. flex cal.l.txt
+3. set path=C:\MinGw\bin
+4. gcc lex.yy.c
+5. a
+6. Then give any two numbers for addition 
+     example:4+5.
